@@ -1,0 +1,687 @@
+[
+    {
+        "timestamp": "00:11:09",
+        "file_name": "scene_039.png",
+        "text": "foe a:"
+    },
+    {
+        "timestamp": "00:04:05",
+        "file_name": "scene_011.png",
+        "text": "PROBLEM\nSOLVING\n\nKNOWLEDGE PROGRAMMING\n‘OF CONCEPTS SKILL"
+    },
+    {
+        "timestamp": "00:02:07",
+        "file_name": "scene_005.png",
+        "text": "FAST PACED COURSE\n\n* Pasition yourself to succeed!\nread psets when they come out and come back to them later\nuse late days in emergency situations\n\n= New to programming? PRACTICE. PRACTICE? PRACTICE!\n\ncan't passively absorb programming as a skill\ndownload code before lecture and follow along\ndon’t be afraid to try out Python commands!"
+    },
+    {
+        "timestamp": "00:01:41",
+        "file_name": "scene_004.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:04:01",
+        "file_name": "scene_010.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:11:08",
+        "file_name": "scene_038.png",
+        "text": "TYPES OF KNOWLEDGE\n\n* declarative knowledge is WHAT YOU THINK YU 100K LIKE!\nstatements of fact .\n\nsomeone will win a Google a h\nCardboard before class ends Ya\n\n+ imperative knowledge is a\nrecipe or “how-to”.\nStudents sign up at\nhatps/bit. iy/é0e01 rattle\nAna opens her IDE\n\nAna chooses a random num\nbetween 1 and n'” responder\n\nAna finds the number in the\n\nresponders sheet. Winner! WHAT YOU ACTUALLY LOGK UKE"
+    },
+    {
+        "timestamp": "00:02:17",
+        "file_name": "scene_006.png",
+        "text": "7 Oss V94 0.4\n\n\\\nMert By)"
+    },
+    {
+        "timestamp": "00:04:18",
+        "file_name": "scene_012.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:04:20",
+        "file_name": "scene_013.png",
+        "text": "PROBLEM\nSOLVING\n\nKNOWLEDGE PROGRAMMING\n‘OF CONCEPTS SKILL"
+    },
+    {
+        "timestamp": "00:02:28",
+        "file_name": "scene_007.png",
+        "text": "FAST PACED COURSE\n\n* Pasition yourself to succeed!\nread psets when they come out and come back to them later\nuse late days in emergency situations\n\n= New to programming? PRACTICE. PRACTICE? PRACTICE!\n\ncan’t passively absorb programming as a skill\ndownload code before lecture and follow along\ndon’t be afraid to try aut Python commands!"
+    },
+    {
+        "timestamp": "00:01:17",
+        "file_name": "scene_003.png",
+        "text": "TODAY\n\n» course info\n= what is computation\n\n* python basics\n\n* mathematical operations\n\n* python variables and types.\n* NOTE: slides and code files up before each lecture\nhighly encourage you to download them before lecture\ntake notes and run code files when Ido\nbring computers to answer in-class practice exercises!"
+    },
+    {
+        "timestamp": "00:05:19",
+        "file_name": "scene_017.png",
+        "text": "TOPICS\n\n» represent knowledge with data structures\n* iteration and recursion as computational metaphors\n* abstraction of procedures and data types\n\n* organize and modularize systems using object classes\nand methods\n\n» different classes of algorithms, searching and sorting\n\n* complexity of algorithms"
+    },
+    {
+        "timestamp": "00:04:52",
+        "file_name": "scene_016.png",
+        "text": "wv.\n\n— -"
+    },
+    {
+        "timestamp": "00:00:58",
+        "file_name": "scene_002.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:04:29",
+        "file_name": "scene_014.png",
+        "text": "\\\nC ey 24 (nla, a.)"
+    },
+    {
+        "timestamp": "00:00:00",
+        "file_name": "scene_000.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:07:57",
+        "file_name": "scene_028.png",
+        "text": "Kod —"
+    },
+    {
+        "timestamp": "00:08:07",
+        "file_name": "scene_029.png",
+        "text": "WHAT DOES A COMPUTER DO\n\n» Fundamentally:\nperforms calculations\na billion calculations per second!\nremembers results:\n\n100s of gigabytes of storage!\n\n= What kinds of calculations?\nbuilt-in to the language\nones that you define as the programmer\n\ncomputers only know what you tell them"
+    },
+    {
+        "timestamp": "00:00:51",
+        "file_name": "scene_001.png",
+        "text": "WELCOME!\n\n(download slides and .py files to follow along!)\n\nOT TECTURE |"
+    },
+    {
+        "timestamp": "00:04:45",
+        "file_name": "scene_015.png",
+        "text": "TOPICS\n\nrepresent knowledge with data structures\n* iteration and recursion as computational metaphors\n* abstraction of procedures and data types\n\n* organize and modularize systems using object classes\nand methods\n\n» different classes of algorithms, searching and sorting\n\n* complexity of algorithms"
+    },
+    {
+        "timestamp": "00:30:17",
+        "file_name": "scene_106.png",
+        "text": "OBJECTS\n\n* programs manipulate data objects\n\n* objects have a type that defines the kinds of things\nprograms can do to them\n\nAna is a human so she can\n\nwalk, speak English, etc.\n\nChewbacca is a wookie so he can\n\nwalk, “mwaaarhrhh’, etc.\n\n* objects are\nscalar (cannot be subdivided)\nnon-scalar (have internal structure that can be accessed)"
+    },
+    {
+        "timestamp": "00:32:34",
+        "file_name": "scene_112.png",
+        "text": "PRINTING TO CONSOLE\n\n* to show output from code to a user, use print.\ncommand\n\nIn (11): 342\nOut[ll]: 5\n\n(12): print (342)"
+    },
+    {
+        "timestamp": "00:27:32",
+        "file_name": "scene_099.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:19:21",
+        "file_name": "scene_072.png",
+        "text": "BASIC MACHINE ARCHITECTURE\n\nMEMORY\nyf |\n\nCONTROL i ARITHMETIC\nLOGIC UNIT"
+    },
+    {
+        "timestamp": "00:18:06",
+        "file_name": "scene_066.png",
+        "text": "BASIC MACHINE ARCHITECTURE\n\nMEMORY\n\nCONTROL ARITHMETIC\nUNIT LOGIC UNIT\n[roeon oa"
+    },
+    {
+        "timestamp": "00:18:13",
+        "file_name": "scene_067.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:19:29",
+        "file_name": "scene_073.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:27:03",
+        "file_name": "scene_098.png",
+        "text": "WHERE THINGS GO WRONG\n\n» syntactic errors\ncommon and easily caught\n\"= static semantic errors\n\nsome languages check for these before running program\ncan cause unpredictable behavior\n\n* no semantic errors but different meaning than what\nprogrammer intended\n\nprogram crashes, stops running\n\nprogram runs forever\n\nprogram gives an answer but different than expected"
+    },
+    {
+        "timestamp": "00:32:44",
+        "file_name": "scene_113.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:30:35",
+        "file_name": "scene_107.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:32:11",
+        "file_name": "scene_111.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:29:37",
+        "file_name": "scene_105.png",
+        "text": "ae, on"
+    },
+    {
+        "timestamp": "00:16:54",
+        "file_name": "scene_059.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:17:56",
+        "file_name": "scene_065.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:19:10",
+        "file_name": "scene_071.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:19:00",
+        "file_name": "scene_070.png",
+        "text": "BASIC MACHINE ARCHITECTURE\n\nMEMORY\n\nCONTROL B ARI TRY TIC\nLOGIC UNIT"
+    },
+    {
+        "timestamp": "00:17:48",
+        "file_name": "scene_064.png",
+        "text": "BASIC MACHINE ARCHITECTURE\n\nMEMORY\n\nARITHMETIC\nLOGIC UNIT\n\nE op:"
+    },
+    {
+        "timestamp": "00:16:43",
+        "file_name": "scene_058.png",
+        "text": "COMPUTERS ARE MACHINES\n\n* how to capture a\nrecipe in a mechanical\nprocess\n\n* fixed program\n\ncomputer\ncalculator\n\n* stored program\ncomputer\nmachine stores and\nexecutes instructions"
+    },
+    {
+        "timestamp": "00:29:22",
+        "file_name": "scene_104.png",
+        "text": "OBJECTS\n\n* programs manipulate data objects\n\n* objects have a type that defines the kinds of things\nprograms can do to them\n\nAna is a human so she can\n\nwalk, speak English, etc,\n\nChewbacca is a wookie so he can\n\nwalk, “mwaaarhrhh”, ete.\n\n* objects are\nscalar (cannot be subdivided)\nnon-scalar (have internal structure that can be accessed)"
+    },
+    {
+        "timestamp": "00:32:00",
+        "file_name": "scene_110.png",
+        "text": "TYPE CONVERSIONS (CAST)\n\n* can convert object of one type to another\n\n* float (3) converts integer 3 to float 3.0\n\n\"int (3.9) truneates float 3.9 to integer 3"
+    },
+    {
+        "timestamp": "00:33:16",
+        "file_name": "scene_114.png",
+        "text": "Symtaxtrror: invalid syntax\n\ntn [971\n1 [97]\ntn 187]\ntn 187]\n10 [a7]\ntn 47]\n\ntn [6a]\nout lea}: 6\n\nIn 189}: runfileg*¢:suserssanas -sayder any Veera. a,\nudir \"Cpusersianay spyder? py?\n\ntn [901"
+    },
+    {
+        "timestamp": "00:28:21",
+        "file_name": "scene_100.png",
+        "text": "PYTHON PROGRAMS\n\n* a program is a sequence of definitions and commands\ndefinitions evaluated\ncommands executed by Python interpreter in a shell\n\n= commands (statements) instruct interpreter to do\nsomething\n\n* can be typed directly in a shell or stored in a file that\nis read into the shell and evaluated\nProblem Set 0 will introduce you to these in Anaconda"
+    },
+    {
+        "timestamp": "00:37:56",
+        "file_name": "scene_128.png",
+        "text": "ABSTRACTING EXPRESSIONS\n\n» why give names to values of expressions?\n\n* to reuse names instead of values\n* easier to change code later\n\npi 3.14159\nradius - 2.2\narea ~ pi*(radius**2)"
+    },
+    {
+        "timestamp": "00:17:05",
+        "file_name": "scene_060.png",
+        "text": "COMPUTERS ARE MACHINES\n\n* how to capture a\nrecipe in a mechanical\nprocess\n\n* fixed program\n\ncomputer\ncalculator\n\n* stored program\ncomputer\nmachine stores and\n\nexecutes instructions ut ="
+    },
+    {
+        "timestamp": "00:19:42",
+        "file_name": "scene_074.png",
+        "text": "BASIC MACHINE ARCHITECTURE\n\nMEMORY\ntf\n\nCONTROL i ARITHMETIC\nLOGIC UNIT"
+    },
+    {
+        "timestamp": "00:13:10",
+        "file_name": "scene_048.png",
+        "text": "A NUMERICAL EXAMPLE\n\n* square root of anumber x isy suchthatyty — x\n\n* recipe for deducing square root of a number x (16)\n1} Start with a guess, g\n2) Ifg*g is close enough to x, stop and say ¢ is the\nanswer\n3) Otherwise make a new guess by averaging g and x/g\n4) Using the new guess, repeat process until close enough\nCE\n: zy 16/5 aT)\nat Vie hak) dems\n\nA039 err 5.9F Aono"
+    },
+    {
+        "timestamp": "00:13:39",
+        "file_name": "scene_049.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:19:51",
+        "file_name": "scene_075.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:17:14",
+        "file_name": "scene_061.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:38:36",
+        "file_name": "scene_129.png",
+        "text": "a\n\n>\n2 t\n&)"
+    },
+    {
+        "timestamp": "00:28:31",
+        "file_name": "scene_101.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:33:52",
+        "file_name": "scene_115.png",
+        "text": "=a\nroan"
+    },
+    {
+        "timestamp": "00:29:08",
+        "file_name": "scene_103.png",
+        "text": "%\n|"
+    },
+    {
+        "timestamp": "00:34:08",
+        "file_name": "scene_117.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:23:09",
+        "file_name": "scene_088.png",
+        "text": "ASPECTS OF LANGUAGES\n\n* syntax\nEnglish: \"cat. dog boy\" > not syntactically valid\n“cat hugs boy\" > syntactically valid\nprogramming language: “f:i\"S — not syntactically valid\n\n3.2*5 > syntactically valid"
+    },
+    {
+        "timestamp": "00:20:26",
+        "file_name": "scene_077.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:17:39",
+        "file_name": "scene_063.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:17:26",
+        "file_name": "scene_062.png",
+        "text": "BASIC MACHINE ARCHITECTURE\n\nMEMORY"
+    },
+    {
+        "timestamp": "00:20:01",
+        "file_name": "scene_076.png",
+        "text": "STORED PROGRAM COMPUTER\n\n» sequence of instructions stored inside computer\nbuilt from predefined set of primitive instructions\n1) anthmetic and logic\n2) simple tests:\n8) moving data\n\n= special program (interpreter) executes each\ninstruction in order\nuse tests to change flow of control through sequence\nstop when done"
+    },
+    {
+        "timestamp": "00:23:25",
+        "file_name": "scene_089.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:34:00",
+        "file_name": "scene_116.png",
+        "text": "PRINTING TO CONSOLE\n\n* to show output from code to a user, use print.\n\ncommand em\npor awe\n\nrom\n\nIn [11]: 342 “Oat\n\nee\nOut fll): $ x\n\n[12J: print (3+2)"
+    },
+    {
+        "timestamp": "00:28:37",
+        "file_name": "scene_102.png",
+        "text": "a 1a [24]\ntn (a)\nun [84]\n1a [24]\ntn [a]\nla [88]: xmport random\n\nTa [86]: random randiat se, 2029\n\nue |a6]> 75\nIa [a7]: om\nyt tan Eng base ne\n\nSymtaxtrror: invalid syntax\n\na 16"
+    },
+    {
+        "timestamp": "00:37:25",
+        "file_name": "scene_127.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:41:14",
+        "file_name": "scene_133.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:23:46",
+        "file_name": "scene_090.png",
+        "text": "ASPECTS OF LANGUAGES\n\n* static semantics is which syntactically valid strings\nhave meaning\nEnglish: \"I are hungry\" > syntactically valid\nbut static semantic error\n\nprogramming language: 3.2*S > syntactically valid\n34 \"bi\" > static semantic error"
+    },
+    {
+        "timestamp": "00:22:16",
+        "file_name": "scene_084.png",
+        "text": "ASPECTS OF LANGUAGES\n\n» primitive constructs\nEnglish: words\nprogramming language: numbers, strings, simple\noperators"
+    },
+    {
+        "timestamp": "00:14:41",
+        "file_name": "scene_053.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:12:55",
+        "file_name": "scene_047.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:12:47",
+        "file_name": "scene_046.png",
+        "text": "A NUMERICAL EXAMPLE\n\n* square root of anumber x isy suchthatyty x\n\n* recipe for deducing square root of a number x (16)\n1) Start with a guess, g\n2) Ifq*g is close enough to x, stop and say q is the\nanswer\n3) Otherwise make a new guess by averaging g and x/g\n4) Using the new guess, repeat process until close enough\nCS CS\n5 zy Vest au\naut a La tach\n\n4.0035 err 5.897 A.apoo0z"
+    },
+    {
+        "timestamp": "00:14:33",
+        "file_name": "scene_052.png",
+        "text": "WHAT IS A RECIPE\n\n1) sequence of simple steps\n\n2) flow of control process\nthat specifies when each\nstep is executed\n\na means of determining\nwhen to stop\n\n1+2+3 = an algorithm!\n\ns—\no_\n——"
+    },
+    {
+        "timestamp": "00:22:33",
+        "file_name": "scene_085.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:24:27",
+        "file_name": "scene_091.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:39:52",
+        "file_name": "scene_132.png",
+        "text": "CHANGING BINDINGS\n\n* can re-bind variable names using new assignment\nstatements\n\n» previous value may still stored in memory but lost the\nhandle for it\n\n* value for area does not change until you tell the\ncomputer to do the calculation again"
+    },
+    {
+        "timestamp": "00:36:51",
+        "file_name": "scene_126.png",
+        "text": "BINDING VARIABLES AND\nVALUES\n\n* equal sign is an assignment of a value to a variable\nname\n\npif a.tars9\n\npi_approx = 22/7\n\n» value stored in computer memory\n* an assignment binds name to value\n\n* retrieve value associated with name or variable by\ninvoking the name, by typing pi"
+    },
+    {
+        "timestamp": "00:34:21",
+        "file_name": "scene_118.png",
+        "text": "EXPRESSIONS\n\n* combine objects and operators to form expressions\n\n* an expression has a value, which has a type\n\n* syntax for a simple expression\n\n<object> <operetor> <object>"
+    },
+    {
+        "timestamp": "00:39:25",
+        "file_name": "scene_130.png",
+        "text": "PROGRAMMING vs MATH\n\n* in programming, you do not “solve for x”\n\npi = 3.14159\nradius = 2.2\n\n# area of circle\narea pi*{radius**2)\nradius - radiust]"
+    },
+    {
+        "timestamp": "00:35:21",
+        "file_name": "scene_124.png",
+        "text": "OPERATORS ON ints and floats\n\n> the sum\n\n{f oth are its, eosult int\n> the difference ——~ steimer or both are oats, results float\n> the product\n\n> division ———~ jesuitisstoat\n\n194 > the remainder when i is divided by j\n\n+1445 > i tothe power of 5"
+    },
+    {
+        "timestamp": "00:22:59",
+        "file_name": "scene_087.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:25:18",
+        "file_name": "scene_093.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:20:36",
+        "file_name": "scene_078.png",
+        "text": "BASIC PRIMITIVES\n\n* Turing showed that you can compute anything using 6\nprimitives\n\n» modern programming languages have more\nconvenient set of primitives\n\n* can abstract methods to create new primitives\n\n* anything computable in one language is computable in\nany other programming language"
+    },
+    {
+        "timestamp": "00:11:52",
+        "file_name": "scene_044.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:13:52",
+        "file_name": "scene_050.png",
+        "text": "A NUMERICAL EXAMPLE\n\n* square root of anumberx isy suchthatyty — x\n\n* recipe for deducing square root of a number x (46)\n1} Start with a guess, g\n2) Ifg*g is close enough to x, stop and say g is the\nanswer\n3) Otherwise make a new guess by averaging g and x/g\n4) Using the new guess, repeat process until close enough\n—\n5 Volt\nri Vi haw an\n4.0035 16.02TF 5.987 A aon0n2"
+    },
+    {
+        "timestamp": "00:14:02",
+        "file_name": "scene_051.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:11:57",
+        "file_name": "scene_045.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:20:41",
+        "file_name": "scene_079.png",
+        "text": "~}"
+    },
+    {
+        "timestamp": "00:24:48",
+        "file_name": "scene_092.png",
+        "text": "ASPECTS OF LANGUAGES\n\n» semantics is the meaning\nassociated with a syntactically\ncorrect string of symbols with\nno static semantic errors.\n\nEnglish: can have many\nmeanings \"Flying planes\ncan be dangerous\"\n\nprogramming languages: have\nonly one meaning but may not\nbe what programmer intended"
+    },
+    {
+        "timestamp": "00:22:51",
+        "file_name": "scene_086.png",
+        "text": "ASPECTS OF LANGUAGES\n\n» syntax\nEnglish: \"cat dog boy\" > not syntactically valid\nat hugs boy\" > syntactically valid\nprogramming language: “hi\"S > not syntactically valid\n\n3.2*5 > syntactically valid"
+    },
+    {
+        "timestamp": "00:35:34",
+        "file_name": "scene_125.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:39:41",
+        "file_name": "scene_131.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:34:28",
+        "file_name": "scene_119.png",
+        "text": "a -_"
+    },
+    {
+        "timestamp": "00:42:46",
+        "file_name": "scene_135.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:34:47",
+        "file_name": "scene_121.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:31:51",
+        "file_name": "scene_109.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:21:51",
+        "file_name": "scene_082.png",
+        "text": "CREATING RECIPES\n\n* a programming language provides a set of primitive\noperations\n\n» expressions are complex but legal combinations of\nprimitives in a programming language\n\n* expressions and computations have values and\nmeanings in a programming language"
+    },
+    {
+        "timestamp": "00:26:25",
+        "file_name": "scene_096.png",
+        "text": "tn [a]\n\nwo [241\nbs [94]\nto (aa)\nwo faa)\nbs [94]\nco 94)\nwo 124)\nbs 195]\n\ntn [6]\nout [86]\n\n1a |\n\namport random\n\nrandom. randint{\n8\n\ney"
+    },
+    {
+        "timestamp": "00:11:15",
+        "file_name": "scene_041.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:15:03",
+        "file_name": "scene_055.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:18:48",
+        "file_name": "scene_069.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:18:20",
+        "file_name": "scene_068.png",
+        "text": "BASIC MACHINE ARCHITECTURE\n\nMEMORY\n\nCONTROL ARITHMETIC\nUNIT LOGIC UNIT\n[ror on"
+    },
+    {
+        "timestamp": "00:14:54",
+        "file_name": "scene_054.png",
+        "text": "WHAT IS A RECIPE\n\n1) sequence of simple steps\n\n2) flow of control process\nthat specifies when each\nstep is executed\n\na means of determining\nwhen to stop\n\n1+#2+3 = an algorithm!"
+    },
+    {
+        "timestamp": "00:11:14",
+        "file_name": "scene_040.png",
+        "text": "TYPES OF KNOWLEDGE\n\n* declarative knowtedge is WHAT YOU THINK YOU LOOK LIKE\nstatements of fact.\n\nsomeone will win a Google\nCardboard before class ends\n\n* imperative knowledge is 2\nrecipe or “how-to”.\n1) Students sign up at\npiffbit. ty/eguul-ratfle\n\nAna opens her IDE\n‘Ana chooses 2 random num\nbetween 1\" and n'™ responder ,\nAna finds the number in the d\n\nresponders sheet. Winner! WHAT YOU ACTUALLY LOOK LIME"
+    },
+    {
+        "timestamp": "00:26:37",
+        "file_name": "scene_097.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:22:02",
+        "file_name": "scene_083.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:31:00",
+        "file_name": "scene_108.png",
+        "text": "SCALAR OBJECTS\n\n» int —represent integers, ex. 5\n» float —represent real numbers, ex. 3.21)\n* bool —represent Boolean values rue and tase\n\n* None'type — special and has one value, None\n\n\"can use type () to see the type of an object\n\n>>> type (5)\nint\n\n>>> type (3.0)\ntloat."
+    },
+    {
+        "timestamp": "00:34:35",
+        "file_name": "scene_120.png",
+        "text": "OPERATORS ON ints and floats\n\ni+] > thesum\n\n*i-j > the difference —— resner or both ae floats result seat\n\nit} > the product\n\n=i/4 PF division ——— jesus sioat\n\n194 > the remainder when i is divided by j\n+1444 > i tothe power of 3"
+    },
+    {
+        "timestamp": "00:42:20",
+        "file_name": "scene_134.png",
+        "text": "CHANGING BINDINGS\n\n* can re-bind variable names using new assignment\nstatements\n\n* previous value may still stored in memory but lost the\nhandle for it\n\n* value for area does not change until you tell the\ncomputer to do the calculation again\n\npi 3.14\n\nradius = 2.2 = =\narca = pit(radius**2) Ei\n\nradius = radius+l"
+    },
+    {
+        "timestamp": "00:34:59",
+        "file_name": "scene_122.png",
+        "text": "OPERATORS ON ints and floats\n\nit] > thesum\n\n<tboth are ints, result int\ni-]j > the difference ——~ sreuneror both are floats, results float\ni*j > the product\n\n= 4/4 PD division ———— resunisstoat\n\n494 > the remainder when i is divided by j\n\n+4445 > i tothe power of 3"
+    },
+    {
+        "timestamp": "00:42:58",
+        "file_name": "scene_136.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:26:01",
+        "file_name": "scene_095.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:21:42",
+        "file_name": "scene_081.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:15:52",
+        "file_name": "scene_056.png",
+        "text": "COMPUTERS ARE MACHINES\n\n+ how to capture a\nrecipe in a mechanical\nprocess\n\n* fixed program\n\ncomputer\ncalculator\n\n* stored program\ncomputer\nmachine stores and\nexecutes instructions"
+    },
+    {
+        "timestamp": "00:11:26",
+        "file_name": "scene_042.png",
+        "text": "my [84]\n1 [8]\nto [a4]\nmy [84]\ntn [8]\ntn 124)\nm [84]\n1m |)\ntn 1a)\n\nIn [94]\n\nIn [85]"
+    },
+    {
+        "timestamp": "00:11:42",
+        "file_name": "scene_043.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:16:08",
+        "file_name": "scene_057.png",
+        "text": "he,"
+    },
+    {
+        "timestamp": "00:21:31",
+        "file_name": "scene_080.png",
+        "text": "BASIC PRIMITIVES\n\n* Turing showed that you can compute anything using 6\nprimitives\n\n» modern programming languages have more\nconvenient set of primitives\n\n* can abstract methods to create new primitives\n\n* anything computable in one language is computable in\nany other programming language"
+    },
+    {
+        "timestamp": "00:25:52",
+        "file_name": "scene_094.png",
+        "text": "ASPECTS OF LANGUAGES\n\n» semantics is the meaning\nassociated with a syntactically\ncorrect string of symbols with\nno static semantic errors\nEnglish: can have many\nmeanings \"Flying planes\ncan be dangerous\nprogramming languages: have\nonly one meaning but may not\nbe what programmer intended\n\n“Ta reading lamp heae't uteres\n\"Sword elnee reought I"
+    },
+    {
+        "timestamp": "00:35:06",
+        "file_name": "scene_123.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:05:27",
+        "file_name": "scene_018.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:08:19",
+        "file_name": "scene_030.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:06:29",
+        "file_name": "scene_024.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:07:01",
+        "file_name": "scene_025.png",
+        "text": "WHAT DOES A COMPUTER DO\n\n» Fundamentally:\nperforms calculations\na billion calculations per second!\nremembers results:\n\n100s of gigabytes of storage!\n\n= What kinds of calculations?\nbuilt-in to the language\nones that you define as the programmer\n\n* computers only know what you tell them"
+    },
+    {
+        "timestamp": "00:08:43",
+        "file_name": "scene_031.png",
+        "text": "TYPES OF KNOWLEDGE\n\n» declarative knowledge is\nstatements of fact.\n\n* imperative knowledge is a\nrecipe or “how-to”."
+    },
+    {
+        "timestamp": "00:05:42",
+        "file_name": "scene_019.png",
+        "text": "TOPICS\n\n» represent knowledge with data structures\n* iteration and recursion as computational metaphors\n* abstraction of procedures and data types\n\n* organize and modularize systems using object classes\nand methods\n\n» different classes of algorithms, searching and sorting\n\n* complexity of algorithms"
+    },
+    {
+        "timestamp": "00:07:35",
+        "file_name": "scene_027.png",
+        "text": "WHAT DOES A COMPUTER DO\n\n» Fundamentally\nperforms calculations\na billion calculations per second!\nremembers results:\n\n100s of gigabytes of storage!\n\n* What kinds of calculations?\nbuilt-in to the language\nones that you define as the programmer\n\n* computers only know what you tell them"
+    },
+    {
+        "timestamp": "00:09:36",
+        "file_name": "scene_033.png",
+        "text": "TYPES OF KNOWLEDGE\n\n* declarative knowledge is\nstatements of fact.\n\nsomeone will win a Google\nCardboard before class ends\n\n* imperative knowledge is a\nrecipe or “how-to”."
+    },
+    {
+        "timestamp": "00:09:06",
+        "file_name": "scene_032.png",
+        "text": "~"
+    },
+    {
+        "timestamp": "00:07:23",
+        "file_name": "scene_026.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:06:14",
+        "file_name": "scene_022.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:10:28",
+        "file_name": "scene_036.png",
+        "text": "a\n“a"
+    },
+    {
+        "timestamp": "00:10:58",
+        "file_name": "scene_037.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:06:22",
+        "file_name": "scene_023.png",
+        "text": "TOPICS\n\n» represent knowledge with data structures\n* iteration and recursion as computational metaphors\n* abstraction of procedures and data types\n\n* organize and modularize systems using object classes\nand methods\n\n» different classes of algorithms, searching and sorting\n\n* complexity of algorithms"
+    },
+    {
+        "timestamp": "00:10:19",
+        "file_name": "scene_035.png",
+        "text": "Fhbe “cast cut 25 @starvet i 7RS\", Ln Ha\ncmodule>\n\nrunfite(’¢: /users/Ana/ spyder? pys/temp. py\",\nwale \"Ci /Usersianay sayder? 3¥3\n\nFike \"Cvanacanda SLinssite\nnat Rages der uioetder shes era He LASER eL is Cm ze\nyr, Une 42a, i@ runtile\n\nexec ftle(filenane, namespace)\n\nFile “Ckanavonda st Linsue:\npackages iaprder | ibiaidget vextornaLanol Leitecustae ize.\nWoy ae 29, by exe Hi ke\n\nexec(compile(t read(), fitename, exer’), namespace)\n\nCifuNer shad sweden? pee omy. ’\nemodule>\n\nUnie guess <3\n\nxeyboardtnterrupt\n\nho 1241s cam Let e anserséanad Saver scanesetenen me"
+    },
+    {
+        "timestamp": "00:06:10",
+        "file_name": "scene_021.png",
+        "text": "TOPICS\n\n» represent knowledge with data structures\n* iteration and recursion as computational metaphors\n* abstraction of procedures and data types\n\n* organize and modularize systems using object classes\nand methods\n\n» different classes of algorithms, searching and sorting\n\n* complexity of algorithms"
+    },
+    {
+        "timestamp": "00:03:40",
+        "file_name": "scene_009.png",
+        "text": "PROBLEM\nSOLVING\n\nKNOWLEDGE PROGRAMMING\n‘OF CONCEPTS SKILL"
+    },
+    {
+        "timestamp": "00:03:12",
+        "file_name": "scene_008.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:05:49",
+        "file_name": "scene_020.png",
+        "text": ""
+    },
+    {
+        "timestamp": "00:10:00",
+        "file_name": "scene_034.png",
+        "text": ""
+    }
+]
