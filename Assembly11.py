@@ -183,6 +183,9 @@ class AI_Assistant:
         "After completing the response, provide the YouTube link for the relevant timestamp as a separate line in the following format: "
         "'Relevant section: https://www.youtube.com/watch?v=KrRD7r7y7NY&t=XXX' where 'XXX' is the most relevant timestamp in seconds. "
         "Prioritize clarity and engagement in your response, tailoring it to ensure it fits the tone and style expected by the audience. "
+        "If the question is something which is completely out of context, and has no relevance to the main ideas of the video, in that case "
+        "don't give any timestamps and the links from the video as it would not make sense. Just answer the question in a general way, and ask the user to ask questions about the video"
+        "in a more direct way."
         "Return only the answer and the link with no additional commentary or text."
         )
         self.full_transcript.append({"role": "user", "content": user_text})
