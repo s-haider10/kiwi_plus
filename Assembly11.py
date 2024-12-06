@@ -181,7 +181,7 @@ class AI_Assistant:
         "For example, include phrases like 'as mentioned in the context,' 'as explained in the section around,' or 'as demonstrated in the example provided.' "
         "If the context does not fully address the question, rely on your knowledge to give a concise, efficient answer that remains accurate and informative. "
         "After completing the response, provide the YouTube link for the relevant timestamp as a separate line in the following format: "
-        "'Relevant section: https://www.youtube.com/watch?v=KrRD7r7y7NY&t=XXX' where 'XXX' is the most relevant timestamp in seconds. "
+        "'Relevant section: https://youtu.be/e3fz3dqhN44?si=N8GbNw7etl4tZPl7&t=XXX' where 'XXX' is the most relevant timestamp in seconds. "
         "Prioritize clarity and engagement in your response, tailoring it to ensure it fits the tone and style expected by the audience. "
         "If the question is something which is completely out of context, and has no relevance to the main ideas of the video, in that case "
         "don't give any timestamps and the links from the video as it would not make sense. Just answer the question in a general way, and ask the user to ask questions about the video"

@@ -7,6 +7,8 @@ from scenedetect import detect, ContentDetector
 from scenedetect.video_manager import VideoManager
 from scenedetect.scene_manager import SceneManager
 from scenedetect.stats_manager import StatsManager
+from transformers import AutoModel, AutoTokenizer
+import torch
 import chromadb
 from chromadb.config import Settings
 import os
@@ -294,14 +296,14 @@ def main():
     transcription_data = 'transcriptions.json'
 
     client_capstone = chromadb.PersistentClient(path="chromadb")
-
-    collection_transcriptions = client_capstone.create_collection(name="Capstone_Kiwi")
-
+    collection_transcriptions_clip = client_capstone.create_collection(name="Capstone_Kiwi_clip")
+    collection_transcriptions_bert = client_capstone.create_collection(name="Capstone_Kiwi_bert")
+    
     with open(transcription_data, 'r') as file:
         transcription_data = json.load(file)
-
     data = transcription_data
     model_name = "openai/clip-vit-base-patch32"
+
 
     clip_model = CLIPModel.from_pretrained(model_name)
     clip_tokenizer = CLIPTokenizer.from_pretrained(model_name)
@@ -309,6 +311,20 @@ def main():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model = clip_model.to(device)
 
+
+    bert_model_name = "bert-base-uncased"
+    bert_model = AutoModel.from_pretrained(bert_model_name)
+    bert_tokenizer = AutoTokenizer.from_pretrained(bert_model_name)
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    bert_model = bert_model.to(device)
+
+    def embed_text_bert(text):
+        inputs = bert_tokenizer(text, return_tensors="pt", padding=True, truncation=True).to(device)
+        with torch.no_grad():
+            outputs = bert_model(**inputs)
+            text_embedding = outputs.last_hidden_state[:, 0, :]
+        return text_embedding.squeeze().cpu().numpy()
+    
     def embed_text(text):
         text_inputs = processor(text=[text], return_tensors="pt", padding=True).to(device)
         with torch.no_grad():
@@ -316,24 +332,36 @@ def main():
         return text_embeddings.squeeze().cpu().numpy()
     
     embeddings = []
-
     for item in transcription_data:
         summary_text = item['summary']
         embedding = embed_text(summary_text)
         embeddings.append(embedding)
-
+    
     for i, item in enumerate(transcription_data):
         summary_text = item['summary']
-        collection_transcriptions.add(
+        collection_transcriptions_clip.add(
             documents=str(item),
             embeddings=[embeddings[i]],
             metadatas=None,
             ids=[str(i)]
         )
 
+    bert_embeddings = []
+    for item in transcription_data:
+        summary_text = item['summary']
+        embedding = embed_text_bert(summary_text)
+        bert_embeddings.append(embedding)
+    
+    for i, item in enumerate(transcription_data):
+        collection_transcriptions_bert.add(
+            documents=str(item),
+            embeddings=[bert_embeddings[i]],
+            metadatas=None,
+            ids=[str(i)]
+        )
+    
     print("Data successfully added to collection_transcriptions.")
     print('Now we can initiate our audio LLM pipeline.')
-
 
 if __name__ == "__main__":
     main()
