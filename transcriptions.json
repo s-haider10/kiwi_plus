@@ -1,0 +1,616 @@
+[
+    {
+        "start_time": "0:00:00",
+        "end_time": "0:00:45",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Please welcome Andrew Ng. Thank you. It's such a good time to be a builder. So I'm excited to be back here at Snowflake build. What I'd like to do today is share with you where I think are some of AI's biggest opportunities. You may have heard me say that I think AI is the new electricity. That's because AI is a general purpose technology, like electricity. If I ask you what is electricity good for, it's always hard to answer because it's good for so many different things. And new AI technology is creating a huge set of opportunities for us to build new."
+            }
+        ],
+        "summary": "Andrew Ng discusses the immense opportunities presented by AI, likening it to electricity as a transformative general-purpose technology with diverse applications for innovation and building.",
+        "image_names": [
+            "scene_000.png",
+            "scene_001.png",
+            "scene_002.png",
+            "scene_003.png",
+            "scene_004.png",
+            "scene_005.png"
+        ]
+    },
+    {
+        "start_time": "0:00:45",
+        "end_time": "0:01:30",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "New applications that weren't possible before. People often ask me, hey, Andrew, where are the biggest AI opportunities? This is what I think of as the AI stack. At the lowest level is the semiconductors. And then on top of that, a lot of the cloud infra tools, including, of course, Snowflake. And then on top of that are many of the foundation models, trainers and models. And it turns out that a lot of the media hype and excitement in social media buzz has been on these layers of the stack, kind of new technology layers. Whenever there's a new technology like generative AI lot, the buzz is on these technology layers. And there's nothing wrong with that. But I think that almost by definition, there's another layer of the stack that has to work out even better, and that's the application."
+            }
+        ],
+        "summary": "The text discusses the hierarchical AI stack, emphasizing the importance of underlying technologies and infrastructure, particularly semiconductors and cloud tools, while noting that true opportunities lie in developing practical applications of AI beyond just the hype around foundational technologies.",
+        "image_names": [
+            "scene_006.png",
+            "scene_007.png",
+            "scene_008.png",
+            "scene_009.png",
+            "scene_010.png",
+            "scene_011.png",
+            "scene_012.png"
+        ]
+    },
+    {
+        "start_time": "0:01:30",
+        "end_time": "0:02:15",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Because we need the applications to generate even more value and even more revenue so that, you know, to really afford to pay the technology providers below. So I spend a lot of my time thinking about AI applications, and I think that's where a lot of the best opportunities will be to build new things. One of the trends that has been growing for the last couple years, in no small part because of generative AI, is faster and faster machine learning. Model development, and in particular generative AI, is letting us build things faster than ever before. Take the problem of, say, building a sentiment classifier, taking text and deciding this is a positive or negative sentiment. For reputation monitoring, say, typical work."
+            }
+        ],
+        "summary": "The text discusses the increasing value and revenue potential of AI applications, highlighting generative AI's role in accelerating machine learning and facilitating rapid model development, exemplified by sentiment classification for reputation monitoring.",
+        "image_names": [
+            "scene_013.png",
+            "scene_014.png",
+            "scene_015.png",
+            "scene_016.png",
+            "scene_017.png",
+            "scene_018.png"
+        ]
+    },
+    {
+        "start_time": "0:02:15",
+        "end_time": "0:03:00",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Using supervised learning might be that it will take a month to get some labeled data and then train AI model that might take a few months. And then find a cloud service or something to deploy it on. That'll take another few months. And so for a long time, very valuable AI systems might take good AI teams 6 to 12 months to build. And there's nothing wrong with that. I think many people created very valuable AI systems this way. But with generative AI, there's certain classes of applications where you can write a prompt in days and then deploy it in again, maybe days. And what this means is there are a lot of applications that used to take me and used to take very good AI teams months to build that. Today you can build in."
+            }
+        ],
+        "summary": "Generative AI enables the rapid development and deployment of applications within days, contrasting with traditional supervised learning, which can take months to build AI systems due to the need for labeled data and training.",
+        "image_names": [
+            "scene_019.png",
+            "scene_020.png",
+            "scene_021.png",
+            "scene_022.png",
+            "scene_023.png"
+        ]
+    },
+    {
+        "start_time": "0:03:00",
+        "end_time": "0:03:45",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Maybe ten days or so. And this opens up the opportunity to experiment with, build new prototypes and ship new AI products. Certainly the prototyping aspect of it, and these are some of the consequences of this trend, which is fast experimentation is becoming a more promising path to invention. Previously, if it took six months to build something, then we better study it, make sure there's user demand, have product managers really look at it, document it, and then spend all that effort to build in it. Hopefully, hopefully, it turns out to be worthwhile. But now, for fast moving AI teams, I see a design pattern where you can say, you know what? It'll take us a weekend to throw together a prototype. Let's build 20 prototypes and see what sticks. And if 18 of them."
+            }
+        ],
+        "summary": "The text discusses the shift towards rapid prototyping in AI product development, emphasizing the advantages of quickly creating multiple prototypes to assess user demand and innovation potential.",
+        "image_names": [
+            "scene_024.png",
+            "scene_025.png",
+            "scene_026.png",
+            "scene_027.png",
+            "scene_028.png",
+            "scene_029.png"
+        ]
+    },
+    {
+        "start_time": "0:03:45",
+        "end_time": "0:04:30",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Them don't work out, we'll just ditch them and stick with what works. So fast iteration and fast experimentation is becoming a new path to inventing new user experiences. One interesting implication is that evaluations, or evals for short, are becoming a bigger bottleneck for how we build things. So it turns out, back in supervised learning world, if you're collecting 10,000 data points anyway to train a model, then if you needed to collect an extra 1,000 data points for testing, it was fine, whereas the extra 10% in costs. But for a lot of large language model based apps, if there's no need to have any training data, if you made me slow down to collect a thousand test examples, boy that seems like a huge bottleneck. And so the new development."
+            }
+        ],
+        "summary": "Fast iteration and experimentation are crucial for innovating user experiences, but the increased need for evaluations is creating bottlenecks, particularly in the development of large language model-based applications where training data collection is less critical.",
+        "image_names": [
+            "scene_029.png",
+            "scene_030.png",
+            "scene_031.png",
+            "scene_032.png",
+            "scene_033.png"
+        ]
+    },
+    {
+        "start_time": "0:04:30",
+        "end_time": "0:05:15",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Workflow often feels as if we're building and collecting data more in parallel rather than sequentially, in which we'll build a prototype. And then as it becomes more important, and as robustness and reliability becomes more important, then we gradually build up that test data in parallel. But I see exciting innovations to be had still in how we build evals. And then what I'm seeing as well is the prototyping of machine learning has become much faster. But building a software application has lots of steps. The product work, the design work does the software integration work, a lot of plumbing work. Then after deployment, DevOps and LLOps. So some of those other pieces are becoming faster, but they haven't become faster at the same rate that the machine learning."
+            }
+        ],
+        "summary": "The text discusses the parallel nature of building prototypes and collecting data in machine learning workflows, noting the excitement for innovations in evaluation processes while highlighting the slower pace of software application development compared to the faster prototyping of machine learning.",
+        "image_names": [
+            "scene_034.png",
+            "scene_035.png",
+            "scene_036.png"
+        ]
+    },
+    {
+        "start_time": "0:05:15",
+        "end_time": "0:06:00",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Learning modeling part has become faster. So we take a process and one piece of it becomes much faster. What I'm seeing is prototyping is now really, really fast. But sometimes you take a prototype into robust, reliable production with guardrails and so on. Those other steps still take some time, but the interesting dynamic I'm seeing is the fact that the machine learning part is so fast is putting a lot of pressure on organizations to speed up of those other parts as well. So that's been exciting progress for our field. And in terms of how machine learning development is speeding things up, I think the mantra move fast and break things got a bad rep because it broke things. I think some people."
+            }
+        ],
+        "summary": "Advancements in machine learning speed up prototyping, creating pressure on organizations to accelerate the transition to robust production while highlighting a need for careful development processes.",
+        "image_names": [
+            "scene_037.png",
+            "scene_038.png",
+            "scene_039.png",
+            "scene_040.png",
+            "scene_041.png",
+            "scene_042.png"
+        ]
+    },
+    {
+        "start_time": "0:06:00",
+        "end_time": "0:06:45",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Interpret this to mean we shouldn't move fast, but I disagree with that. I think the better mantra is move fast and be responsible. And I'm seeing a lot of teams able to prototype quickly, evaluate and test robustly. So without shipping anything out to the wider world that could cause damage and cause meaningful harm, I'm finding smart teams able to build really quickly and move really fast, but also do this in a very responsible way. And I find this exhilarating. You can build things and ship things in a responsible way much faster than ever before. Now, there's a lot going on in AI, and of all the things going on in AI in terms of technical trend, the one trend I'm most excited about is agentic AI workflows and."
+            }
+        ],
+        "summary": "The speaker advocates for a balanced approach of rapid development and responsible innovation in AI, highlighting the capability of teams to prototype quickly while ensuring safety and testing.",
+        "image_names": [
+            "scene_043.png",
+            "scene_044.png",
+            "scene_045.png",
+            "scene_046.png",
+            "scene_047.png",
+            "scene_048.png"
+        ]
+    },
+    {
+        "start_time": "0:06:45",
+        "end_time": "0:07:30",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "So if you were to ask what's the one most important AI technology to pay attention to, I would say it's agentic AI. I think when I started saying this near the beginning of this year, it was a bit of a controversial statement. But now the word AI agents has become so widely used by technical and non technical people, it's become a little bit of a hype term. But so let me just share with you how I view AI agents and why I think they're important. Approaching this from a technical perspective, the way that most of us use large language models today is with what sometimes called zero shot prompting. And that roughly means we would ask it to, given a prompt, write an essay or write an output."
+            }
+        ],
+        "summary": "Agentic AI is recognized as a crucial technology, gaining significance and popularity in discussions, particularly in relation to its application through zero shot prompting with large language models.",
+        "image_names": [
+            "scene_048.png",
+            "scene_049.png",
+            "scene_050.png",
+            "scene_051.png",
+            "scene_052.png",
+            "scene_053.png"
+        ]
+    },
+    {
+        "start_time": "0:07:30",
+        "end_time": "0:08:15",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "For us. And it's a bit like if we're going to a person or in this case going to an AI and asking it to type out an essay for us by going from the first word, writing from the first word to the last word all in one go without ever using backspaces. It's just right from start to finish like that. And it turns out, people, we don't do our best writing this way. But despite the difficulty of being forced to write this way, our large language models do not bad pretty well. Here's what an agentic workflow is like. To generate an essay, we ask an AI to first write an essay outline and ask do you need to do some web research? If so, let's download some web pages and put into the context of the large model. Then let's write the first draft and then let's read the first draft and critique it and revise."
+            }
+        ],
+        "summary": "The text discusses the process of using AI to generate written content, emphasizing an agentic workflow that includes outlining, research, drafting, critiquing, and revising for better writing outcomes.",
+        "image_names": [
+            "scene_053.png",
+            "scene_054.png",
+            "scene_055.png",
+            "scene_056.png"
+        ]
+    },
+    {
+        "start_time": "0:08:15",
+        "end_time": "0:09:00",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "And so on. And this workflow looks more like doing some thinking or some research, and then some revision, and then going back to do more thinking and more research. And by going round this loop over and over, it takes longer, but this results in a much better work output. So in some teams I work with, we apply this agentic workflow to processing complex, tricky legal documents, or to do healthcare diagnosis assistance, or to do very complex compliance with government paperwork. For many tasks, I'm seeing this drive much better results than was ever possible. One thing I'm going to focus on in this presentation I'll talk about later is the rise of visual AI, where agentic reptiles are letting us process image and video data."
+            }
+        ],
+        "summary": "The text discusses an iterative workflow process that enhances work quality in complex tasks such as legal document processing, healthcare diagnosis, and compliance, while also mentioning the emerging role of visual AI in handling image and video data.",
+        "image_names": [
+            "scene_057.png",
+            "scene_058.png",
+            "scene_059.png",
+            "scene_060.png",
+            "scene_061.png",
+            "scene_062.png"
+        ]
+    },
+    {
+        "start_time": "0:09:00",
+        "end_time": "0:09:45",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "But to get back to that later, it turns out that there are benchmarks that seem to show agentic workflows deliver much better results. This is the Human Eval benchmark, which is a benchmark for OpenAI that measures learning large language models, ability to solve coding puzzles like this one. And my team collected some data. Turns out that on this benchmark and it was Parsecade Benchmark Parser K metric GPT 3.5 got 48% right on this coding benchmark. GPT 4 huge improvement 67%. But the improvement from GPT 3.5 to GPT 4 is dwarfed by the improvement from GPT 3. 5 to GPT 3.5 using."
+            }
+        ],
+        "summary": "Agentic workflows significantly enhance performance in coding puzzles, with GPT-4 demonstrating a notable improvement over GPT-3.5 on benchmarks like the Human Eval and Parsecade Benchmark Parser K.",
+        "image_names": [
+            "scene_062.png",
+            "scene_063.png",
+            "scene_064.png",
+            "scene_065.png"
+        ]
+    },
+    {
+        "start_time": "0:09:45",
+        "end_time": "0:10:30",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "An agentic workflow, which gets over up to about 95%. And GPT4 with an agentic workflow also does much better. And so it turns out that in the way builders build agentic reasoning or agentic workflows in their applications, there are, I want to say, four major design patterns, which are reflection, two use planning, and multi agent collaboration. And to demystify agentic workflows a little bit, let me quickly step through what these workflows mean. And I find that agentic workflows sometimes seem a little bit mysterious until you actually read through the code for one or two of these and go, oh, that's it. That's really cool. But. Oh, that's all it takes. But let me just step through."
+            }
+        ],
+        "summary": "The text discusses the concept of agentic workflows, highlighting their effectiveness (up to 95%) when integrated with GPT-4, and outlines four major design patterns: reflection, planning, and multi-agent collaboration, aimed at clarifying the complexity of these workflows.",
+        "image_names": [
+            "scene_066.png",
+            "scene_067.png",
+            "scene_068.png"
+        ]
+    },
+    {
+        "start_time": "0:10:30",
+        "end_time": "0:11:15",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "For concreteness what reflection with LLMs looks like. So I might start off prompting an LLM. There's a coder agent LLM, so maybe an assistant message taught your rows to be a coder and write code so you can tell it Neil, please write code for certain tasks and the LLM may generate code and then it turns out that you can construct a prompt that takes the code that was just generated and and copy paste the code back into the prompt and ask it here's some code intended for a task. Examine this code and critique it. And it turns out if you prompt the same LLM this way, it may sometimes find some problems with it or make some useful suggestions how to prove the code. Then you prompt."
+            }
+        ],
+        "summary": "The text discusses the iterative process of using large language models (LLMs) for coding tasks by prompting them to generate code and then critique it for improvements.",
+        "image_names": [
+            "scene_069.png",
+            "scene_070.png",
+            "scene_071.png"
+        ]
+    },
+    {
+        "start_time": "0:11:15",
+        "end_time": "0:12:00",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "The same LLM with the feedback and ask it to improve the code and become a new version. And maybe foreshadowing to use. You can have the LLM run some unit tests and give the feedback of the unit test back to the LLM. Then that can be additional feedback to help it iterate further to further improve the code. And it turns out that this type of reflection workflow is not magic. It doesn't solve all problems, but it will often take the baseline level performance and lift it to better level of performance. And it turns out also with this type of workflow where we're thinking of prompting an LLM to critique his own output, use his own criticism to improve it. This maybe also foreshadows multi agent planning or multi agent workflows where you can prompt an LLM to sometimes."
+            }
+        ],
+        "summary": "The text discusses the iterative improvement of code using a language model (LLM) that incorporates feedback, unit tests, and self-critique, suggesting potential applications in multi-agent workflows.",
+        "image_names": [
+            "scene_072.png",
+            "scene_073.png",
+            "scene_074.png"
+        ]
+    },
+    {
+        "start_time": "0:12:00",
+        "end_time": "0:12:45",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Play the role of a coder, and sometimes promptly on to play the role of a critic to review the code. So it's actually the same conversation, but we can prompt the LLM differently to tell, sometimes work on the code, sometimes try to make helpful suggestions, and this then results in improved performance. So this is a reflection design pattern. And second major design pattern is to use in which a large language model can be prompted to generate a request to an API call to have it decide when it needs to search the web or execute code, or take other tasks like issue a customer refund or send an email or pull up a calendar entry. So to use is a major design pattern that is."
+            }
+        ],
+        "summary": "The text discusses two design patterns for enhancing a large language model's performance: reflective design for iterative code improvement and an API interaction pattern for task execution and decision-making.",
+        "image_names": [
+            "scene_075.png",
+            "scene_076.png",
+            "scene_077.png",
+            "scene_078.png"
+        ]
+    },
+    {
+        "start_time": "0:12:45",
+        "end_time": "0:13:30",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Letting large language models make function calls, and I think this is expanding what we can do with these agentic workflows. Real quick, here's a planning or reasoning design pattern in which if you were to give a fairly complex request generate image where girls reading a book and so on, then an om this example adapted from the Hugging GP paper. An OM can look at a picture and decide to first use a open pose model to detect the pose, and then after that generate a picture of a girl. After that you describe the image, and after that use a speech or TTS to generate the audio. So in planning you have an LLM look at a complex request and pick a sequence of actions to execute in order to deliver."
+            }
+        ],
+        "summary": "The text discusses how large language models can enhance workflows by making function calls, exemplified through a planning design pattern that involves using an open pose model and text-to-speech to fulfill a complex request, illustrating a sequence of actions generated by the model.",
+        "image_names": [
+            "scene_079.png",
+            "scene_080.png"
+        ]
+    },
+    {
+        "start_time": "0:13:30",
+        "end_time": "0:14:15",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "On a complex task. And then lastly, multi agent collaboration is that design pattern alluded to where instead of prompting an LLM to just do one thing, you prompt the LLM to play different roles at different points in time. So the different agents simulate agents interact with each other and come together to solve a task. And I know that some people may wonder, you know, if you're using one LLM, why do you need to make this one LLM play the role of multiple agents? Many teams have demonstrated significantly improved improve performance for a variety of tasks using this design pattern. And it turns out that if you have an LLM, sometimes specialize on different tasks, maybe one at a time have it interact, many teams seem to really get much better results using."
+            }
+        ],
+        "summary": "The text discusses the effectiveness of multi-agent collaboration in large language models (LLMs) to improve performance on complex tasks by having the model assume different roles at different times.",
+        "image_names": [
+            "scene_081.png",
+            "scene_082.png",
+            "scene_083.png",
+            "scene_084.png"
+        ]
+    },
+    {
+        "start_time": "0:14:15",
+        "end_time": "0:15:00",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Using this. I feel like maybe there's an analogy to if you're running jobs on a processor, on a cpu, why do we need multiple processors? It's all the same processor at the end of the day. But we found that having multiple threads of processes is a useful abstraction for developers to take a task and break it down into subtasks. And I think multi agent collaboration is a bit like that too. If you were big tasks, then if you think of hiring a bunch of agents to do different pieces of tasks and interact, sometimes that helps a developer build complex systems to deliver a good result. So I think with these four major agentic design patterns, agentic releasing workflow design patterns, it gives us a huge space to play with, to build."
+            }
+        ],
+        "summary": "The text discusses the analogy between multi-processor systems and multi-agent collaboration, emphasizing how breaking down complex tasks into subtasks with multiple agents can enhance system development through specific agentic design patterns.",
+        "image_names": [
+            "scene_084.png",
+            "scene_085.png",
+            "scene_086.png"
+        ]
+    },
+    {
+        "start_time": "0:15:00",
+        "end_time": "0:15:45",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Agents to do things that frankly, were just not possible even a year ago. One aspect of this I'm particularly excited about is the rise of not just large language model based agents, but large multimodal model based agents. Given an image like this, if you wanted to use a LMM large multimodal model, you could actually do zero shot prompting. That's a bit like telling it, you know, take a glance at the image and just tone the output. And for simple image tasks, that's okay, you can actually have it, you know, look at the image and give you the numbers of the runners or something. But it turns out, just as with larger."
+            }
+        ],
+        "summary": "The rise of large multimodal model-based agents enables zero-shot prompting for tasks involving both images and text, significantly enhancing capabilities in AI applications.",
+        "image_names": [
+            "scene_087.png",
+            "scene_088.png",
+            "scene_089.png"
+        ]
+    },
+    {
+        "start_time": "0:15:45",
+        "end_time": "0:16:30",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Language model based agents, large multimodal based model based agents can do better with an iterative workflow where you can approach this problem step by step. So to take the faces, to take the numbers, put it together. And so with this more iterative workflow, you can actually get an agent to do some planning, testing, write code, plan, test, write code, and come up with a more complex plan, as articulated as expressing code to deliver on more complex tasks. So what I'd like to do is show you a demo of some work that Dan Maloney and I and the Holami AI team has been working on on building agentic workflows for visual AI tasks. So if we switch."
+            }
+        ],
+        "summary": "The text discusses the benefits of using iterative workflows for large multimodal language model-based agents, enabling them to effectively plan, test, and execute complex tasks in visual AI applications.",
+        "image_names": [
+            "scene_090.png",
+            "scene_091.png",
+            "scene_092.png",
+            "scene_093.png",
+            "scene_094.png"
+        ]
+    },
+    {
+        "start_time": "0:16:30",
+        "end_time": "0:17:15",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "To my laptop. Let me have an image here of a soccer game or football game, and I'm going to say, let's see, count the players in the field. Oh, and just for fun, if you're not sure how to prompt it after uploading an image, this little light bulb here gives some suggested prompts that you may ask for this. But let me so count the players on the field, right? And what this kicks off is a process that actually runs for a couple of minutes to think through how to write code in order to come up with a plan to give an accurate result for counting the number of players in the field. This is actually a little bit complex because you don't want the players in the background just within a few."
+            }
+        ],
+        "summary": "The text discusses using image analysis to count players in a soccer game, highlighting the complexities of distinguishing foreground players from background elements.",
+        "image_names": [
+            "scene_095.png",
+            "scene_096.png",
+            "scene_097.png"
+        ]
+    },
+    {
+        "start_time": "0:17:15",
+        "end_time": "0:18:00",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "I already ran this earlier, so let me just jump to the results. But it says the code has selected seven players on the field, and I think that should write 12345-67. And if I were to zoom in to the model output 1234567, I think that's actually right. And part of the output of this is that it has also generated code that you can run over and over, actually generated Python code that, if you want, you can run over and over on the large collection of images."
+            }
+        ],
+        "summary": "The text discusses a code output that identifies seven players on the field, with indications that the model has successfully generated reusable Python code for analyzing a large image dataset.",
+        "image_names": [
+            "scene_098.png"
+        ]
+    },
+    {
+        "start_time": "0:18:00",
+        "end_time": "0:18:45",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "And I think this is exciting because there are a lot of companies and teams that actually have a lot of visual AI data, have a lot of images, have a lot of videos kind of stored somewhere. And until now, it's been really difficult to get value out of this data. So for a lot of the small teams or large businesses with a lot of visual data, visual AI capabilities like the vision agent, lets you take all this data previously, shove somewhere in blob storage, and get real value out of it. I think this is a big transformation for AI. Here's another example. This is given a video. This is another soccer game, a football game. So."
+            }
+        ],
+        "summary": "The text discusses the transformative potential of visual AI tools like vision agents for companies to extract valuable insights from previously untapped visual data, such as images and videos.",
+        "image_names": [
+            "scene_099.png",
+            "scene_100.png",
+            "scene_101.png"
+        ]
+    },
+    {
+        "start_time": "0:18:45",
+        "end_time": "0:19:30",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Given a video. Split the video clips 5 seconds. Find the clip where a goal is being scored. Display a frame sensitive output. So RAND is already because it takes a little bit of time to run. Then this will generate code, evaluate code for a while. And this is the output and it says true 1015. So it thinks there's a go stored around here, around between the right and there you go. That's the go. And also as instructed extracted. So the frames associated with this so really useful for processing video data. And maybe here's one last example of the vision agent which is you can also ask it ready program to split the input video into small video chunks every six seconds."
+            }
+        ],
+        "summary": "The text discusses a process for analyzing video clips to identify when a goal is scored, including frame extraction and splitting videos into smaller segments for data processing.",
+        "image_names": []
+    },
+    {
+        "start_time": "0:19:30",
+        "end_time": "0:20:15",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Describe each chunk and then store the information to pandas dataframe along with clip name sudden end time Return the pandas dataframe so this is a way to look at video data that you may have and generate metadata for this that you can then store in Snowflake or somewhere to then build other applications on top of. But just to show you the output of this. So clip name start time, end time and then it's actually written code here, wrote code that you can then run elsewhere if you want, put in a stream adapt or something that you can then use to then write a lot of text descriptions for this and using."
+            }
+        ],
+        "summary": "The text discusses generating metadata for video data by describing video segments and storing this information in a pandas DataFrame, which can then be stored in Snowflake for further application development, including code generation for text descriptions.",
+        "image_names": [
+            "scene_102.png",
+            "scene_103.png",
+            "scene_104.png"
+        ]
+    },
+    {
+        "start_time": "0:20:15",
+        "end_time": "0:21:00",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "This capability of the Vision Agent to help write code. My team at Landing AI actually built this little demo app that uses code from the Vision Agent. So instead of us needing to write code, have the Vision Agent write the code to build this metadata and then indexes a bunch of videos. So let's see, I was actually browsing, so Skier Airborne, I actually ran this earlier. Hope it works. So what this demo shows is we already ran the code to take the video, split into chunks, store the metadata, and then when I do a search for Skier Airborne, it shows the clips that have high similarity marked here with the."
+            }
+        ],
+        "summary": "The Vision Agent can automate code writing for video metadata indexing, demonstrated by a Landing AI app that identifies clips related to a specific search term.",
+        "image_names": [
+            "scene_105.png",
+            "scene_106.png",
+            "scene_107.png",
+            "scene_108.png",
+            "scene_109.png",
+            "scene_110.png"
+        ]
+    },
+    {
+        "start_time": "0:21:00",
+        "end_time": "0:21:45",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Green has high similarity. Well, this is getting my heart rate up, seeing them do that. Here's another one. Whoa. All right. And the green parts of the timeline show where the skier is airborne. Let's see. Actually, gray wolf at night. I actually find it pretty fun when you have a collection of video to index it and then just browse through. Here's a gray wolf at night. And this timeline in green shows where the gray wolf at night is. And if I actually jump to different part of the video, there's a bunch of other stuff as well. Right. There's not a great wolf at night, so I think that's pretty cool. Let's see, just one last example. So."
+            }
+        ],
+        "summary": "The text discusses a video analysis featuring skiers and gray wolves, highlighting moments of airborne action and the enjoyment of indexing and browsing through video snippets.",
+        "image_names": [
+            "scene_111.png",
+            "scene_112.png",
+            "scene_113.png",
+            "scene_114.png",
+            "scene_115.png"
+        ]
+    },
+    {
+        "start_time": "0:21:45",
+        "end_time": "0:22:30",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Yeah. If I should have been on the road a lot. But if you're searching for your luggage, this black luggage right there. But it turns out there's actually a lot of black luggage. So if you want your luggage, let's say black luggage with rainbow strap, because there's a lot of black luggage out there, then, you know, there. Right. Black luggage with rainbow strap. So a lot of fun things to do. And I think the nice thing about this is the work needed to build applications like this is lower than ever before. So let's go back to sites."
+            }
+        ],
+        "summary": "The text discusses the challenge of identifying black luggage among many similar pieces and emphasizes the ease of building applications to assist in such searches, highlighting creativity and functionality.",
+        "image_names": [
+            "scene_116.png",
+            "scene_117.png",
+            "scene_118.png",
+            "scene_119.png",
+            "scene_120.png"
+        ]
+    },
+    {
+        "start_time": "0:22:30",
+        "end_time": "0:23:15",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Um, and in terms of AI opportunities, I spoke a bit about agentic workflows and how that is changing. The AI stack is as follows. It turns out that in addition to this stack that I show, there's actually a new emerging agentic orchestration layer. And there are low orchestration layer like Lang Chain that's been around for a while that are also becoming increasingly agentic through Lang Graph for example. And this new agentic orchestration layer is also making it easier for developers to build applications on top. And I Hope that landing AI's vision agent is another contribution to this that makes it."
+            }
+        ],
+        "summary": "The text discusses the emergence of an agentic orchestration layer in AI development, highlighting its role in enhancing workflows and enabling developers to build applications more easily, with references to tools like Lang Chain and Lang Graph.",
+        "image_names": [
+            "scene_121.png",
+            "scene_122.png"
+        ]
+    },
+    {
+        "start_time": "0:23:15",
+        "end_time": "0:24:00",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Easier for you to build visual AI applications to process all this image and video data that possibly you had, but that was really hard to get value out of until more recently. So before I wrap, I'm not sure if you want to think are maybe four of the most important AI trends. There's a lot going on in AI. It's impossible to summarize everything in one slide. If you had to make me pick, what's the one most important trend I would say is agentic AI. But here are four other things I think are worth paying attention to. First, turns out agentic workflows need to read a lot of text or images and generate a lot of text. So we say that generates a lot of tokens. And they're exciting efforts to speed up token generation, including semiconductor work by Saminova, Cerebrus, Rob and others, and."
+            }
+        ],
+        "summary": "The text discusses the rise of agentic AI as a key trend, highlighting advancements in visual AI applications and the importance of efficient token generation for processing text and images.",
+        "image_names": [
+            "scene_123.png",
+            "scene_124.png",
+            "scene_125.png",
+            "scene_126.png",
+            "scene_127.png"
+        ]
+    },
+    {
+        "start_time": "0:24:00",
+        "end_time": "0:24:45",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Lot of software and other types of hardware work as well just to make agentic workflows work much better. Second trend I'm excited about today's large language models has started off being optimized to answer human questions and human generated instructions. Things like, you know, why did Shakespeare write Macbeth? Or explain why Shakespeare wrote Macbeth. These are the types of questions that large language models are often asked to answer on the Internet. But agentic workflows call for other operations like to use. So the fact that large language models are often now tuned explicitly to support tool use, or just a couple of weeks ago, Anthropic released a model that can support computer use. I think these exciting developments create a lot of lift created a much higher ceiling for what we can now."
+            }
+        ],
+        "summary": "The text discusses the advancement of technology, particularly large language models, in enhancing agentic workflows and supporting tool use, highlighting recent developments such as Anthropic's new model designed for computer use.",
+        "image_names": [
+            "scene_128.png",
+            "scene_129.png",
+            "scene_130.png"
+        ]
+    },
+    {
+        "start_time": "0:24:45",
+        "end_time": "0:25:30",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Get agentic workloads to do with large language models that tune not just to answer human queries, but to tune explicitly to fit into these iterative agentic workflows. Third, data engineering's importance is rising, particularly with unstructured data. It turns out that a lot of the value of machine learning was a structured data kind of tables and numbers. But with Genai, we're much better than ever before at processing text and images and video and maybe audio. And so the importance of data engineering is increasing in terms of how to manage your unstructured data and the metadata for that, and deployment to get the unstructured data where it needs to go to create value. So that will be a major effort for a lot of large businesses."
+            }
+        ],
+        "summary": "The text emphasizes the growing significance of data engineering in managing unstructured data for large language models in iterative workflows, highlighting the shift from structured data to efficiently processing various formats like text, images, video, and audio to create value in businesses.",
+        "image_names": [
+            "scene_131.png",
+            "scene_132.png",
+            "scene_133.png"
+        ]
+    },
+    {
+        "start_time": "0:25:30",
+        "end_time": "0:26:15",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "And then lastly, I think we've all seen that the text processing revolution has already arrived. The image processing revolution is in the slightly early phase, but it is coming. And as it comes, many people, many businesses will be able to get a lot more value out of the visual data than was possible ever before. And I'm excited because I think that will significantly increase the space of applications we can build as well. So just wrap up. This is a great time to be a builder. Genai is letting us experiment faster than ever. Agentic AI is expanding the set of things that are now possible, and there are just so many new applications that we can now build in visual AI or not in visual AI that just weren't possible ever before. If you're interested in checking."
+            }
+        ],
+        "summary": "The text discusses the imminent revolution in image processing, highlighting its potential to enhance business value and application development, alongside the ongoing advancements in text processing and AI capabilities.",
+        "image_names": [
+            "scene_133.png",
+            "scene_134.png",
+            "scene_135.png",
+            "scene_136.png",
+            "scene_137.png"
+        ]
+    },
+    {
+        "start_time": "0:26:15",
+        "end_time": "0:27:00",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Out the visual AI demos that I ran, please go to VA Landing AI the exact demos that I ran. You better try out yourself online and get the code and run code yourself in your own applications. So with that, let me say thank you all very much and please also join me in welcoming Elsa back onto the stage. Thank you."
+            }
+        ],
+        "summary": "The speaker encourages the audience to explore and experiment with visual AI demos from VA Landing AI, while expressing gratitude and welcoming Elsa back to the stage.",
+        "image_names": [
+            "scene_138.png",
+            "scene_139.png",
+            "scene_140.png"
+        ]
+    }
+]

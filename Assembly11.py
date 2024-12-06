@@ -45,6 +45,7 @@ from tqdm.autonotebook import tqdm, trange
 
 class AI_Assistant:
     def __init__(self):
+        # add the os.env
         aai.settings.api_key = "ceeca40708804bcfa78588a8b7b3349a"
         self.openai_client = OpenAI(api_key="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")
         self.transcriber = None
