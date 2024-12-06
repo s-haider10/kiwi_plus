@@ -1,0 +1,66 @@
+[
+    {
+        "start_time": "0:00:00",
+        "end_time": "0:00:45",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "How much do you see Xai as a competitor? We talk about Google, obviously, all the time, and we talk about Anthropic and to some degree, Microsoft. And I don't know where you think Amazon is. We'll talk to Jeff Bezos this afternoon. But how do you see that their competitor, do you think of them as one of your biggest competitors? I mean, they have it appears that they are coming on super strong. Yeah. I assume they'll be a really serious competitor. Did you expect that? Yes. You did? Yes. And what are they doing? What are they doing? And how have they been able to literally spin up a company that feels I'm not claiming it's comparable to what you're doing, but getting super close super fast. Meaning what is that? Well, a lot of the models at the Frontier are all pretty."
+            }
+        ],
+        "summary": "The discussion revolves around Xai's competitive standing in relation to major players like Google, Anthropic, Microsoft, and Amazon, highlighting the rapid development and emergence of competitors in the AI space.",
+        "image_names": [
+            "scene_000.png",
+            "scene_001.png",
+            "scene_002.png"
+        ]
+    },
+    {
+        "start_time": "0:00:45",
+        "end_time": "0:01:30",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Close now, but certainly tremendous respect for how quickly they built that data center."
+            },
+            {
+                "speaker": "B",
+                "text": "Is that, by the way, do, do you fear that all this becomes commoditized as a result? I mean, if, if, if it seems like not. I'm not saying anybody can do it, but it just seems like, what is your advantage? And by the way, what is your disadvantage?"
+            },
+            {
+                "speaker": "A",
+                "text": "I think the technology itself, to the degree you believe deep learning, is just like sort of like a law of physics and that we discovered an important new piece of science then. Yes, that part will be done by lots of people. Everybody has their analogy for what AI is like the sauce. Sundar is going to be here. He talks about it like."
+            }
+        ],
+        "summary": "The snippet discusses the rapid development of data centers, questioning the potential commoditization of deep learning technology, while contrasting the advantages and disadvantages in the competitive landscape of AI.",
+        "image_names": [
+            "scene_003.png",
+            "scene_004.png",
+            "scene_005.png"
+        ]
+    },
+    {
+        "start_time": "0:01:30",
+        "end_time": "0:02:15",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Electricity. A whole bunch of others people talk about, like, the Industrial Revolution. Some people talk about, like, the Renaissance. The one I like is the transistor. There was a thing, a scientific discovery that a few companies discovered first that transformed our society, that scaled unbelievably well. Like, you know, when people talk about scaling laws, the best analogy for that, I think, is Moore's Law. And that came to be used by a lot of companies and all of the world. Like, look at all the things in this room with transistors. But we don't think about that as a transistor device, and we don't think about Google as a transistor company, even though they wouldn't be here without one. And I kind of think that's what's going to happen with AI. There will be."
+            }
+        ],
+        "summary": "The text discusses the transformative impact of transistors on society, comparing it to the Industrial Revolution and suggesting that AI may similarly revolutionize the world, akin to how Moore's Law influenced technology companies.",
+        "image_names": []
+    },
+    {
+        "start_time": "0:02:15",
+        "end_time": "0:03:00",
+        "transcription": [
+            {
+                "speaker": "A",
+                "text": "Shockingly capable models, widely available, used for everything. And it will be inconceivable to people in the future that the devices, the products and services they use are not really smart. And they won't all call themselves AI companies or AI products. And in that sense, in some sense, the AI itself, the kind of, the reasoning engine, nature of it, will become commoditized. And that's fine, that's good. Like science should be just diffused throughout society. And that's why we're focused on building things like ChatGPT."
+            }
+        ],
+        "summary": "The text discusses the inevitable integration of advanced AI models into everyday products and services, emphasizing their future ubiquity and the commoditization of AI technology, reflecting a positive outlook on science's diffusion in society.",
+        "image_names": []
+    }
+]
