@@ -146,7 +146,7 @@ class AI_Assistant:
             aggregated_summary = " ".join(summary_texts)
             
             prompt = (
-                f"Please summarize the following information into two clear and concise paragraphs. "
+                f"Please summarize the following information into two clear and concise paragraphs. The information is a from a video that the user is watching, and learning from. "
                 f"The summary should highlight the key concepts, include important details, and provide any relevant examples to help the user understand. "
                 f"Make sure the content is easy to follow and captures the main points. \n\n"
                 f"{aggregated_summary}"
