@@ -17,6 +17,7 @@ from yt_dlp import YoutubeDL
 import os
 import argparse
 import subprocess
+from transformers import AutoModel, AutoTokenizer
 import cv2
 from scenedetect import detect, ContentDetector
 from scenedetect.video_manager import VideoManager
@@ -54,11 +55,14 @@ class AI_Assistant:
         nltk.download('punkt_tab')
         self.stop_words = set(stopwords.words("english"))
         self.client_capstone = chromadb.PersistentClient(path="chromadb")
-        self.collection_transcriptions = self.client_capstone.get_collection(name="Capstone_Kiwi")
+        self.collection_transcriptions_clip = self.client_capstone.get_collection(name="Capstone_Kiwi_clip")
+        self.collection_transcriptions_bert = self.client_capstone.get_collection(name="Capstone_Kiwi_bert")
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         self.clip_model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32").to(self.device)
         self.clip_tokenizer = CLIPTokenizer.from_pretrained("openai/clip-vit-base-patch32")
         self.processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch16")
+        self.bert_model = AutoModel.from_pretrained("bert-base-uncased")
+        self.bert_tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
         self.initialize_system_prompt()
         atexit.register(self.cleanup)
     
@@ -67,11 +71,18 @@ class AI_Assistant:
         with torch.no_grad():
             text_embeddings = self.clip_model.get_text_features(**text_inputs)
         return text_embeddings.squeeze().cpu().numpy()
+
+    def embed_text_bert(self, text):
+        inputs = self.bert_tokenizer(text, return_tensors="pt", padding=True, truncation=True).to(self.device)
+        with torch.no_grad():
+            outputs = self.bert_model(**inputs)
+            text_embedding = outputs.last_hidden_state[:, 0, :]
+        return text_embedding.squeeze().cpu().numpy()
     
     def get_relevant_context(self, query_text):
         merged_info = ""
         query_embedding = self.embed_text(query_text)
-        results = self.collection_transcriptions.query(query_embeddings=query_embedding, n_results=3)
+        results = self.collection_transcriptions_clip.query(query_embeddings=query_embedding, n_results=3)
         data_string = results['documents'][0]
         for i, item in enumerate(data_string):
             merged_info += f"Context {i+1}: \n\n"
@@ -181,7 +192,7 @@ class AI_Assistant:
         "For example, include phrases like 'as mentioned in the context,' 'as explained in the section around,' or 'as demonstrated in the example provided.' "
         "If the context does not fully address the question, rely on your knowledge to give a concise, efficient answer that remains accurate and informative. "
         "After completing the response, provide the YouTube link for the relevant timestamp as a separate line in the following format: "
-        "'Relevant section: https://www.youtube.com/watch?v=RcOEdHOZRkQ=XXX' where 'XXX' is the most relevant timestamp in seconds. "
+        "'Relevant section: https://youtu.be/zizonToFXDs?si=AEz6grjxNfZ_ZT1x&t=XXX' where 'XXX' is the most relevant timestamp in seconds. "
         "Prioritize clarity and engagement in your response, tailoring it to ensure it fits the tone and style expected by the audience. "
         "If the question is something which is completely out of context, and has no relevance to the main ideas of the video, in that case "
         "don't give any timestamps and the links from the video as it would not make sense. Just answer the question in a general way, and ask the user to ask questions about the video"
