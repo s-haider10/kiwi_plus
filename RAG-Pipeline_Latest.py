@@ -29,16 +29,16 @@ import seaborn as sns
 import sentence_transformers
 from tqdm.autonotebook import tqdm, trange
 
-openai_client = OpenAI(api_key="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")
-aai.settings.api_key = "ceeca40708804bcfa78588a8b7b3349a"
+openai_client = OpenAI(api_key="")
+aai.settings.api_key = ""
 
 def convert_to_seconds(timestamp):
     hours, minutes, seconds = map(int, timestamp.split(":"))
     return timedelta(hours=hours, minutes=minutes, seconds=seconds).total_seconds()
 
 def generate_summary(text):
-    openai_client = OpenAI(api_key="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")
-    aai.settings.api_key = "ceeca40708804bcfa78588a8b7b3349a"
+    openai_client = OpenAI(api_key="")
+    aai.settings.api_key = ""
     system_prompt = """
             Your job is to analyze a text snippet, and analyze the text content, summarizing it in one line. Highlight the main ideas, key terms, and concepts being discussed. \n
             Without any additional text, return this summary.
@@ -54,8 +54,6 @@ def generate_summary(text):
     return summary
 
 def add_summaries_to_json(json_file): 
-    openai_client = OpenAI(api_key="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")
-    aai.settings.api_key = "ceeca40708804bcfa78588a8b7b3349a"
     with open(json_file, 'r') as f:
         transcriptions = json.load(f)
     for entry in transcriptions:
@@ -67,8 +65,6 @@ def add_summaries_to_json(json_file):
     print(f"Summaries have been added and the file is updated.")
 
 def transcribe_audio_in_chunks(audio):
-    openai_client = OpenAI(api_key="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")
-    aai.settings.api_key = "ceeca40708804bcfa78588a8b7b3349a"
     CHUNK_SIZE = 45 
     transcriptions = []
     chunks_dir = "audio_chunks"

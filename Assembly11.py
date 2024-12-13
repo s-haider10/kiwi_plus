@@ -47,8 +47,8 @@ from tqdm.autonotebook import tqdm, trange
 class AI_Assistant:
     def __init__(self):
         # add the os.env
-        aai.settings.api_key = "ceeca40708804bcfa78588a8b7b3349a"
-        self.openai_client = OpenAI(api_key="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")
+        aai.settings.api_key = ""
+        self.openai_client = OpenAI(api_key="")
         self.transcriber = None
         self.full_transcript = []
         nltk.download('stopwords')
@@ -175,6 +175,10 @@ class AI_Assistant:
             self.prompt_user()
         except Exception as e:
             print(f"An error occurred: {e}")
+    
+    def save_transcript(self):
+        with open("conversation_transcript.json", "w") as f:
+            json.dump(self.full_transcript, f, indent=4)
 
     
     def generate_ai_response(self, transcript, mode="audio"):
@@ -182,6 +186,7 @@ class AI_Assistant:
         user_text = transcript.text
         processed_question = self.preprocess_question(user_text)
         relevant_context = self.get_relevant_context(processed_question)
+        print("\nRelevant Contexts:\n", relevant_context)
         final_prompt = (
         f"This is the user question:\n{user_text}\n\n"
         f"These are the relevant contexts in order of relevancy:\n{relevant_context}\n\n"
@@ -246,6 +251,7 @@ class AI_Assistant:
             elif user_input == "0":
                 print("\nConversation Transcript: \n\n")
                 self.full_transcript.pop(0)
+                self.save_transcript()
                 for entry in self.full_transcript:
                     print(f"{entry['role'].capitalize()}: {entry['content']}\n\n")
                 print("\nThank you for the conversation!\n")
