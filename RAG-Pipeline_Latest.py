@@ -235,8 +235,8 @@ def extract_audio(video_path):
     return audio_path
 
 def main():
-    openai_client = OpenAI(api_key="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")
-    aai.settings.api_key = "ceeca40708804bcfa78588a8b7b3349a"
+    openai_client = OpenAI(api_key="")
+    aai.settings.api_key = ""
     
     parser = argparse.ArgumentParser(description="Download a YouTube video.")
     parser.add_argument(
